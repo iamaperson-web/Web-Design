@@ -9,7 +9,8 @@ They have many uses in the real world (e.g. family management, business, etc.)
 
 ##Creating databases
 1. Add the following code below:
-**Configuring database connection**
+#Configuring database connection
+git status
 SQLALCHEMY_DATABASE_URI = "mysql+mysqlconnector://{username}:{password}@{hostname}/{databasename}".format(
     username="<the username from the 'Databases' tab>",
     password="<the password you set on the 'Databases' tab>",
