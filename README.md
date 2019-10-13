@@ -9,7 +9,7 @@ They have many uses in the real world (e.g. family management, business, etc.)
 
 **Creating databases**
 1. Add the following code below:
-![Image of code](https://github.com/iamaperson-web/Web-Design/blob/7ca52242cc8e5d9c2e50c10a967abaae26deb6e7/flask_app.py#L7-L17)
+![image](https://user-images.githubusercontent.com/56465665/66709672-ba4ca180-ed58-11e9-823f-d519c746c3b9.png)
 
 
 *Make sure the values set for username, hostname and databasename to the values from the "Databases tab". Change the password to the one 
