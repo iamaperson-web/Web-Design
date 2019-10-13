@@ -28,7 +28,7 @@ class AddUserModel(db.Model):
 
 @app.route("/newuser", methods=["GET", "POST"])
 def newuser():
-
+    
     users = AddUserModel.query.all() #Allows to make queries to the database. 
 
     form = AddUserForm()
