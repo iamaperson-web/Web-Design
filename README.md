@@ -45,17 +45,24 @@ This should show that you have a table called 'AddUsers'.
 You will have two columns: id and content
 
 9. Now that you have the code in your Flask app to connect to the database, a Python definition of what information that you want to store in the database, and tables created in the database on the MySQL server to store the data, get rid of the line where you create the old in-memory storage for the comments. E.g. the one like this:
+
 ![image](https://user-images.githubusercontent.com/56465665/66724148-21a84580-ee6e-11e9-8618-2613f62a6954.png)
+
 And change it into this: 
 
+![image](https://user-images.githubusercontent.com/56465665/66724167-6338f080-ee6e-11e9-8402-d0a1349b323e.png)
 
 Keep in mind that the query attribute is something that SQLAlchemy added to your AddUser class, allowing you to make queries to the database, and its all method, just gets all users.
 
 10. Next, add the following code after the code you have just added. 
 
+![image](https://user-images.githubusercontent.com/56465665/66724180-8fed0800-ee6e-11e9-9147-f850432d8923.png)
+
 Transactions batches up a bunch of changes into one, for efficiency and also so that if an error occurs you can easily abort and have none of them happen. 
 
-11. Save your Python file, type and submit the details. Your details should now be displayed onto your webpage. 
+11. Save your Python file, type and submit the details. Your details should now be displayed onto your webpage.
+
+![image](https://user-images.githubusercontent.com/56465665/66724197-d0e51c80-ee6e-11e9-87d7-6d29a60959fa.png)
 
 
 
