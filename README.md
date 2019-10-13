@@ -30,7 +30,38 @@ Connection timeouts occur when a website is really busy, in which the aggregate 
 
 An SQL database is somewhat similar to a spreadsheet as it contains a number of tables just like when a spreadsheet contains a number sheets. Each table is formed of rows and columns. Each row serves as data records of information - in this case, each user would be a row. The columns serves as attributes of the class as for the database, two columns are specified: an integer id and a string of content, which in this case consists of the user's details. 
 
-5. 
+5. Now that the model has been defined, you will need SQLAlchemy to create database tables. Save your Python file, then start opening your bash console. Make sure you run python3.6 to start a Python interpreter. Once it is running, import the database manager from your code. 
+
+Once you have done that, the table has been created in the database. 
+
+6. To confirm this, go to the databases tab on PythonAnywhere page and start a new console by clicking on your database name. E.g. (yourusername$default). This will run the MySQL command line. 
+
+7. Once it has loaded (it will display a mysql> prompt), run the command:
+
+This should show that you have a table called 'AddUsers'.
+
+8. To ensure that it contains the information you would expect, run the command:
+
+You will have two columns: id and content
+
+9. Now that you have the code in your Flask app to connect to the database, a Python definition of what information that you want to store in the database, and tables created in the database on the MySQL server to store the data, get rid of the line where you create the old in-memory storage for the comments. E.g. the one like this:
+
+And change it into this: 
+
+
+Keep in mind that the query attribute is something that SQLAlchemy added to your AddUser class, allowing you to make queries to the database, and its all method, just gets all users.
+
+10. Next, add the following code after the code you have just added. 
+
+Transactions batches up a bunch of changes into one, for efficiency and also so that if an error occurs you can easily abort and have none of them happen. 
+
+11. Save your Python file, type and submit the details. Your details should now be displayed onto your webpage. 
+
+
+
+
+
+
 
 
 
