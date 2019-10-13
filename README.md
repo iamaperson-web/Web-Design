@@ -22,6 +22,14 @@ Connection timeouts occur when a website is really busy, in which the aggregate 
 ![image](https://user-images.githubusercontent.com/56465665/66709888-9ab77800-ed5c-11e9-9faa-ab1f6af7e512.png)
 
 3. To make this work, add the extra import statement at the start of the code. 
+![image](https://user-images.githubusercontent.com/56465665/66710001-2fbb7080-ed5f-11e9-9aa9-3c7a65ddd7f5.png)
+
+4. Now you will need to create a model. A model is a Python class that specifies the information that you want to store into the database as SQAlchemy handles all the complexities of loading and storing information in MySQL. Here is an example of a model below:
+![image](https://user-images.githubusercontent.com/56465665/66710001-2fbb7080-ed5f-11e9-9aa9-3c7a65ddd7f5.png)
+
+An SQL database is somewhat similar to a spreadsheet as it contains a number of tables just like when a spreadsheet contains a number sheets. Each table is formed of rows and columns. Each row serves as data records of information - in this case, each user would be a row. The columns serves as attributes of the class as for the database, two columns are specified: an integer id and a string of content, which in this case holds the contents of the user. 
+
+5. 
 
 
 
