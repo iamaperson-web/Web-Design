@@ -45,7 +45,7 @@ This should show that you have a table called 'AddUsers'.
 You will have two columns: id and content
 
 9. Now that you have the code in your Flask app to connect to the database, a Python definition of what information that you want to store in the database, and tables created in the database on the MySQL server to store the data, get rid of the line where you create the old in-memory storage for the comments. E.g. the one like this:
-
+![image](https://user-images.githubusercontent.com/56465665/66724148-21a84580-ee6e-11e9-8618-2613f62a6954.png)
 And change it into this: 
 
 
