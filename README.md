@@ -32,6 +32,9 @@ An SQL database is somewhat similar to a spreadsheet as it contains a number of 
 
 5. Now that the model has been defined, you will need SQLAlchemy to create database tables. Save your Python file, then start opening your bash console. Make sure you run python3.6 to start a Python interpreter. Once it is running, import the database manager from your code. 
 
+![image](https://user-images.githubusercontent.com/56465665/66830253-c460e100-efa0-11e9-8b99-533a6f2274fd.png)
+
+![image](https://user-images.githubusercontent.com/56465665/66830688-cd9e7d80-efa1-11e9-8351-6ba8165b90c0.png)
 
 
 Once you have done that, the table has been created in the database. 
@@ -42,13 +45,32 @@ Once you have done that, the table has been created in the database.
 
 ![image](https://user-images.githubusercontent.com/56465665/66828430-bd37d400-ef9c-11e9-91c8-ce5d1e35603a.png)
 
-7. Once it has loaded (it will display a mysql> prompt), run the command:
+7. Once it has loaded (it will display a mysql> prompt), run the commands:
+
+![image](https://user-images.githubusercontent.com/56465665/66831807-40105d00-efa4-11e9-8221-e057bc6f9822.png)
+
+![image](https://user-images.githubusercontent.com/56465665/66832206-20c5ff80-efa5-11e9-90a8-9b7a9efc3930.png)
+
+It should display this message:
+
+![image](https://user-images.githubusercontent.com/56465665/66832275-510d9e00-efa5-11e9-9bed-06a8184f4df8.png)
+
+Then run this command:
+
+![image](https://user-images.githubusercontent.com/56465665/66832340-73072080-efa5-11e9-8925-168fef759ef0.png)
 
 This should show that you have a table called 'AddUsers'.
 
-8. To ensure that it contains the information you would expect, run the command:
+![image](https://user-images.githubusercontent.com/56465665/66832397-8e722b80-efa5-11e9-859e-dade78897e71.png)
+
+8. To ensure that it contains the information you would expect, run this command:
+
+![image](https://user-images.githubusercontent.com/56465665/66832517-cda07c80-efa5-11e9-8bb0-756875756924.png)
 
 You will have two columns: id and content
+
+![image](https://user-images.githubusercontent.com/56465665/66832579-ed37a500-efa5-11e9-9106-ae62c0ae0ecd.png)
+
 
 9. Now that you have the code in your Flask app to connect to the database, a Python definition of what information that you want to store in the database, and tables created in the database on the MySQL server to store the data, get rid of the line where you create the old in-memory storage for the comments. E.g. the one like this:
 
