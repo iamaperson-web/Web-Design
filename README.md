@@ -7,6 +7,8 @@ rights (i.e. those that are allowed to have access to the data and are able to c
 efficiently and allows multiple users to perform tasks with ease as well as storing, organising and managing a large amount of information.
 They have many uses in the real world (e.g. family management, business, etc.) 
 
+# Installation
+
 # Usage
 1. Add the following code below:
 ![image](https://user-images.githubusercontent.com/56465665/66709672-ba4ca180-ed58-11e9-823f-d519c746c3b9.png)
@@ -94,7 +96,7 @@ Transactions batches up a bunch of changes into one, for efficiency and also so 
 
 ![image](https://user-images.githubusercontent.com/56465665/66724197-d0e51c80-ee6e-11e9-87d7-6d29a60959fa.png)
 
-
+# Credits
 
 
 
