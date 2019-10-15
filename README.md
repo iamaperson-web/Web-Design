@@ -45,9 +45,11 @@ Once you have done that, the table has been created in the database.
 
 ![image](https://user-images.githubusercontent.com/56465665/66828430-bd37d400-ef9c-11e9-91c8-ce5d1e35603a.png)
 
-7. Once it has loaded (it will display a mysql> prompt), run the commands:
+7. Once it has loaded (it will display a mysql> prompt), run this command to show databases:
 
 ![image](https://user-images.githubusercontent.com/56465665/66831807-40105d00-efa4-11e9-8221-e057bc6f9822.png)
+
+And then run this command:
 
 ![image](https://user-images.githubusercontent.com/56465665/66832206-20c5ff80-efa5-11e9-90a8-9b7a9efc3930.png)
 
