@@ -32,9 +32,15 @@ An SQL database is somewhat similar to a spreadsheet as it contains a number of 
 
 5. Now that the model has been defined, you will need SQLAlchemy to create database tables. Save your Python file, then start opening your bash console. Make sure you run python3.6 to start a Python interpreter. Once it is running, import the database manager from your code. 
 
+
+
 Once you have done that, the table has been created in the database. 
 
 6. To confirm this, go to the databases tab on PythonAnywhere page and start a new console by clicking on your database name. E.g. (yourusername$default). This will run the MySQL command line. 
+
+![image](https://user-images.githubusercontent.com/56465665/66828276-57e3e300-ef9c-11e9-9bb3-e77c51cd756c.png)
+
+![image](https://user-images.githubusercontent.com/56465665/66828430-bd37d400-ef9c-11e9-91c8-ce5d1e35603a.png)
 
 7. Once it has loaded (it will display a mysql> prompt), run the command:
 
