@@ -1,6 +1,6 @@
 # Databases
 
-**Description**
+**Description:**
 Databases are organised sets of data that is generally stored and accessed electronically. It has many uses, such as storing special 
 information used to manage the data, storing data and providng facilities of searching specific record in given data, and managing access
 rights (i.e. those that are allowed to have access to the data and are able to change it). Databases are important because it manages data 
@@ -8,6 +8,37 @@ efficiently and allows multiple users to perform tasks with ease as well as stor
 They have many uses in the real world (e.g. family management, business, etc.) 
 
 # Installation
+**Setting up Flask:**
+
+1. First, you will need to set up and configure PythonAnywhere. Go to pythonanywhere.com and sign in.
+2. Click on the **Web** tab.
+
+![image](https://user-images.githubusercontent.com/56465665/66878748-18061580-f007-11e9-8bdf-39529ac237d2.png)
+
+3. Add a new web app. 
+
+Then select Flask.
+
+4. Select a Python version (mainly Python 3.6)
+
+5. Leave it as default and proceed. 
+
+Then go back to your dashboard and click the hyperlink to your page. You should have a webpage.
+
+6. Go to your dashboard and find your source code section. Go to that directory.
+
+Then select flask_app.py:
+
+You should be able to see this: 
+
+**Setting up a database:**
+
+1. Go to the **Databases** tab. You should already have this:
+
+2. 
+
+
+
 
 # Usage
 1. Add the following code below:
