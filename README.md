@@ -163,7 +163,11 @@ Transactions batches up a bunch of changes into one, for efficiency and also so 
 
 # Credits
 
+* developers, P. (2019). A beginner's guide to building a simple database-backed Flask website on PythonAnywhere - PythonAnywhere News. [online] Blog.pythonanywhere.com. Available at: https://blog.pythonanywhere.com/121/ [Accessed 16 Oct. 2019].
 
+* Grinberg, M. (2019). The Flask Mega-Tutorial Part IV: Database - miguelgrinberg.com. [online] Blog.miguelgrinberg.com. Available at: https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-iv-database [Accessed 16 Oct. 2019].
+
+* Databases. (2019). [video] Australia: YouTube.
 
 
 
