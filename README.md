@@ -19,7 +19,6 @@ They have many uses in the real world (e.g. family management, business, etc.)
 
 ![image](https://user-images.githubusercontent.com/56465665/66880146-3ec74a80-f00d-11e9-8740-4e2b3c977d27.png)
 
-
 Then select Flask.
 
 ![image](https://user-images.githubusercontent.com/56465665/66880155-51da1a80-f00d-11e9-99b1-cc8626d715ed.png)
@@ -50,11 +49,24 @@ You should be able to see something like this:
 
 1. Go to the **Databases** tab. You should already have these details below:
 
+![image](https://user-images.githubusercontent.com/56465665/66830253-c460e100-efa0-11e9-8b99-533a6f2274fd.png)
+
+![image](https://user-images.githubusercontent.com/56465665/66880475-d11c1e00-f00e-11e9-8311-29675cf0e04b.png)
 
 2. Underneath Create a Database, add a database name called:
 
+![image](https://user-images.githubusercontent.com/56465665/66880550-1d675e00-f00f-11e9-8def-b845eee23494.png)
+
+**Make sure you use your username that you set up earlier!**
+
+This should be displayed underneath your databases:
+
+![image](https://user-images.githubusercontent.com/56465665/66880598-50a9ed00-f00f-11e9-852c-9d25a6e8ab5c.png)
 
 3. Underneath MySQL password, create a password and then set it as your MySQL password. 
+
+![image](https://user-images.githubusercontent.com/56465665/66880610-64555380-f00f-11e9-9ed1-fb6457958e49.png)
+
 
 4. After you have done the steps above, you should be able to have all the following database details that you will need later on when you create a database:
 * username 
