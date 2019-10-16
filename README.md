@@ -33,12 +33,19 @@ You should be able to see this:
 
 **Setting up a database:**
 
-1. Go to the **Databases** tab. You should already have this:
-
-2. 
+1. Go to the **Databases** tab. You should already have these details below:
 
 
+2. Underneath Create a Database, add a database name called:
 
+
+3. Underneath MySQL password, create a password and then set it as your MySQL password. 
+
+4. After that, you should be able to have all the following database details that you will need later on when you create a database:
+* username 
+* host name
+* database name 
+* password
 
 # Usage
 1. Add the following code below:
