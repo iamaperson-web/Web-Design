@@ -153,7 +153,7 @@ Keep in mind that the query attribute is something that SQLAlchemy added to your
 
 10. Next, add the following code after the code you have just added. 
 
-![image](https://user-images.githubusercontent.com/56465665/66724180-8fed0800-ee6e-11e9-9147-f850432d8923.png)
+![image](https://user-images.githubusercontent.com/56465665/66881865-08d99480-f014-11e9-9a39-fc97686c6048.png)
 
 Transactions batches up a bunch of changes into one, for efficiency and also so that if an error occurs you can easily abort and have none of them happen. 
 
