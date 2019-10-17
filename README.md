@@ -59,7 +59,8 @@ Connection timeouts occur when a website is really busy, in which the aggregate 
 
 ![image](https://user-images.githubusercontent.com/56465665/66710016-685b4a00-ed5f-11e9-8ce4-b243f98fb156.png)
 
-An SQL database is somewhat similar to a spreadsheet as it contains a number of tables just like when a spreadsheet contains a number sheets. Each table is formed of rows and columns. Each row serves as data records of information - in this case, each user would be a row. The columns serves as attributes of the class as for the database, two columns are specified: an integer id and a string of content, which in this case consists of the user's details. 
+An SQL database is somewhat similar to a spreadsheet as it contains a number of tables just like when a spreadsheet contains a number sheets. Each table is formed of rows and columns. Each row serves as data records of information - in this case, each user would be a row. The columns serves as attributes of the class as for the database, two columns are specified: an integer ![image](https://user-images.githubusercontent.com/56465665/66979412-1d438d00-f0f9-11e9-92aa-f84939e17885.png)
+ and a string of content, which in this case consists of the user's details. 
 
 5. Now that the model has been defined, you will need SQLAlchemy to create database tables. Save your Python file, then start opening your bash console. Make sure you run python3.6 to start a Python interpreter. Once it is running, import the database manager from your code. 
 
@@ -100,7 +101,8 @@ This should show that you have a table called 'AddUsers'.
 
 ![image](https://user-images.githubusercontent.com/56465665/66832517-cda07c80-efa5-11e9-8bb0-756875756924.png)
 
-You will have two columns: id and content
+You will have two columns: ![image](https://user-images.githubusercontent.com/56465665/66979412-1d438d00-f0f9-11e9-92aa-f84939e17885.png)
+and content
 
 ![image](https://user-images.githubusercontent.com/56465665/66832579-ed37a500-efa5-11e9-9106-ae62c0ae0ecd.png)
 
