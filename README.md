@@ -8,42 +8,6 @@ efficiently and allows multiple users to perform tasks with ease as well as stor
 They have many uses in the real world (e.g. family management, business, etc.) 
 
 # Installation
-**Setting up Flask:**
-
-1. First, you will need to set up and configure PythonAnywhere. Go to pythonanywhere.com and sign in.
-2. Click on the **Web** tab.
-
-![image](https://user-images.githubusercontent.com/56465665/66878748-18061580-f007-11e9-8bdf-39529ac237d2.png)
-
-3. Add a new web app. 
-
-![image](https://user-images.githubusercontent.com/56465665/66880146-3ec74a80-f00d-11e9-8740-4e2b3c977d27.png)
-
-Then select Flask.
-
-![image](https://user-images.githubusercontent.com/56465665/66880155-51da1a80-f00d-11e9-99b1-cc8626d715ed.png)
-
-4. Select a Python version (mainly Python 3.6)
-
-![image](https://user-images.githubusercontent.com/56465665/66880182-73d39d00-f00d-11e9-863a-0373ff877130.png)
-
-5. Leave it as default and proceed. 
-
-Then go to the **Web** tab and click the hyperlink to your page. You should have a webpage.
-
-![image](https://user-images.githubusercontent.com/56465665/66880248-db89e800-f00d-11e9-844d-0388ad57e12c.png)
-
-6. Go back to your **Web** tab and find your source code section. Go to that directory.
-
-![image](https://user-images.githubusercontent.com/56465665/66880330-2d327280-f00e-11e9-9ee2-74dc2381e065.png)
-
-Then select flask_app.py:
-
-![image](https://user-images.githubusercontent.com/56465665/66880373-5d7a1100-f00e-11e9-81b0-403e6c73f5c8.png)
-
-You should be able to see something like this: 
-
-![image](https://user-images.githubusercontent.com/56465665/66880398-75ea2b80-f00e-11e9-99e6-c1d5d24a3b7b.png)
 
 **Setting up a database:**
 
